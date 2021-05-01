@@ -33,6 +33,7 @@ public class admincontroler {
 
         @GetMapping("/getAdmin")
         public ArrayList<admin> getAdmin() {
+            System.out.println("hello");
             return admins;
         }
 
