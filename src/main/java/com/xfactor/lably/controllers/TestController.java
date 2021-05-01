@@ -1,11 +1,16 @@
 package com.xfactor.lably.controllers;
 
+import com.xfactor.lably.entity.lab;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
+
 
 @RestController
 @RequestMapping("/test")
@@ -30,5 +35,14 @@ public class TestController {
     public String getFoos(@RequestParam String id) {
         return "ID: " + id;
     }
+
+
+    ///////////////////////////////////////////////////////////////////
+    @PostMapping("/addLab")
+    public @ResponseBody lab addLab(@RequestBody lab l1)
+    {
+        return l1;
+    }
+
 
 }
