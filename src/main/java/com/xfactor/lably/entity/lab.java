@@ -1,7 +1,7 @@
 package com.xfactor.lably.entity;
 
-public class lab
-{
+public class Lab {
+
     private String name;
 
     private String phone;
@@ -42,5 +42,4 @@ public class lab
         this.pincode = pincode;
     }
 
-    
 }
