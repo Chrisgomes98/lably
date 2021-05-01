@@ -1,0 +1,25 @@
+This folder will contain the following objects:
+
+1) Lab
+String name
+String address
+String phone
+String pincode
+
+2) Tests
+String name
+String description
+Double price
+
+
+3) Admin
+String name
+String username
+String password
+
+
+4) Customer
+String name
+String address
+String age
+String gender
