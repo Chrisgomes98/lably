@@ -3,11 +3,8 @@ package com.xfactor.lably.entity;
 public class Lab {
 
     private String name;
-
     private String phone;
-
     private String address;
-
     private String pincode;
 
     public String getName() {
